@@ -80,33 +80,3 @@ static void MX_ADC1_Init(void)
 }
 
 
-int str_to_decimal(const char *s)
-{
-    const char *digits = "0123456789";
-    int result = 0;
-    bool flagNegativo = false;
-    if (*s == '-') {
-    	flagNegativo = true;
-	}
-
-    for (; *s; ++s) {
-        int digit_val;
-
-        /* Find the index of the digit (equivalent to its numeric value) */
-        for (digit_val = 0; digits[digit_val]; ++digit_val) {
-            if (digits[digit_val] == *s)
-                break;
-        }
-
-        /* Only process recognized digits */
-        if (digits[digit_val])
-            result = 10 * result + digit_val;
-    }
-
-    if (flagNegativo) {
-		result = -result;
-	}
-
-    return result;
-}
-

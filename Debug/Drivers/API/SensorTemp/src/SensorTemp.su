@@ -1,0 +1,3 @@
+../Drivers/API/SensorTemp/src/SensorTemp.c:16:6:SensorTemp_Init	8	static
+../Drivers/API/SensorTemp/src/SensorTemp.c:22:8:SensorTemp_Read	16	static
+../Drivers/API/SensorTemp/src/SensorTemp.c:35:13:MX_ADC1_Init	24	static

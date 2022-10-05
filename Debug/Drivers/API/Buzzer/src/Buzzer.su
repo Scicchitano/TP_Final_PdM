@@ -1,0 +1,2 @@
+../Drivers/API/Buzzer/src/Buzzer.c:9:6:Buzzer_init	4	static
+../Drivers/API/Buzzer/src/Buzzer.c:19:6:Buzzer_toggle	4	static

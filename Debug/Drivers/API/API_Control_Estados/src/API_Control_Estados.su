@@ -1,0 +1,8 @@
+../Drivers/API/API_Control_Estados/src/API_Control_Estados.c:49:6:ControlFSM_init	8	static
+../Drivers/API/API_Control_Estados/src/API_Control_Estados.c:73:6:ControlFSM_update	8	static
+../Drivers/API/API_Control_Estados/src/API_Control_Estados.c:136:9:Definir_Estado	24	static
+../Drivers/API/API_Control_Estados/src/API_Control_Estados.c:154:6:Activar_Estado_Critico	16	static
+../Drivers/API/API_Control_Estados/src/API_Control_Estados.c:163:6:Activar_Estado_Alto	8	static
+../Drivers/API/API_Control_Estados/src/API_Control_Estados.c:169:6:Activar_Estado_Medio	8	static
+../Drivers/API/API_Control_Estados/src/API_Control_Estados.c:175:6:Activar_Estado_Bajo	8	static
+../Drivers/API/API_Control_Estados/src/API_Control_Estados.c:181:6:Activar_Estado_Bajo_Cero	8	static

@@ -23,5 +23,11 @@ C_DEPS :=
 SUBDIRS := \
 Core/Src \
 Core/Startup \
+Drivers/API/API_Control_Estados/src \
+Drivers/API/API_debounce/src \
+Drivers/API/API_delay/src \
+Drivers/API/API_uart/src \
+Drivers/API/Buzzer/src \
+Drivers/API/SensorTemp/src \
 Drivers/STM32F4xx_HAL_Driver/Src \
 
